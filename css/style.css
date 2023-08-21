@@ -68,7 +68,45 @@ header>nav>a::before {
     background-color: #4C5B84;
     /* Box-shadow x y blurr */
     box-shadow: 5px 5px 0px 0px #000;
+    /* transition é uma propriedade controla a animação do transform, pois a animação tem um continuum
+    transition para duas propriedades
+    transition: transform 100ms linear, opacity 200ms ease-in-out; */
+    transition: transform 100ms linear
 }
 .button:hover {
     background-color: rgb(50, 69, 63);
+    /* transform é uma animação que faz o elementro crescer 
+    Outras propriedades mostradas:
+    opacity: 0.5;*/
+    transform: scale(1.08);
+}
+
+#div_banner {
+    width: 627px;
+    height: 184px;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0px 0px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#div_banner>h1 {
+    font-family: "Press Start 2P";
+    text-shadow: 4px 4px 0px #000;
+    color: #62C370; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#div_banner>h2 {
+
+    font-family: "Press Start 2P";
+    text-shadow: 4px 4px 0px #000;
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
 }
