@@ -1,0 +1,24 @@
+.button {
+    /* No CSS se eu definir a altura e largura, não vai dar pq a tag a é setada inline
+    precisa modificar para inline-block o display */
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    /* quando tems uma linha podemos alinhar usando a altura da linha igual da caixa */
+    line-height: 60px;
+    background-color: #4C5B84;
+    /* Box-shadow x y blurr */
+    box-shadow: 5px 5px 0px 0px #000;
+    /* transition é uma propriedade controla a animação do transform, pois a animação tem um continuum
+    transition para duas propriedades
+    transition: transform 100ms linear, opacity 200ms ease-in-out; */
+    transition: transform 100ms linear;
+}
+.button:hover {
+    background-color: rgb(50, 69, 63);
+    /* transform é uma animação que faz o elementro crescer 
+    Outras propriedades mostradas:
+    opacity: 0.5;*/
+    transform: scale(1.08);
+}
