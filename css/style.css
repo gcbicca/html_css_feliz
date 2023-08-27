@@ -1,18 +1,9 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #62C370;
-    border-bottom: 10px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-}
+
 header>img {
     width: 60px;
     height: 60px;
 }
 
-nav {
     /* Podemos alinhar o conteúdo dessa caixa que são palavras porque estamos usando
     tags a (ancor) utilizando style sheets para o texto exemplo text-align: center;
     E o que define o tamanho da caixa é o conteúdo.*/
@@ -30,49 +21,4 @@ nav {
       - mesma linha
       - width e height
       - comportamento de palavra 
-      -  tamanho do conteudo (QUANDO NÃO SELECIONADO O WIDTH E HEIGHT*/
-    
-      text-align: right;
-}
-header>nav>a {
-    /*Usando já o display inline-flex, e orietamos os objetos centralizados */
-    display: inline-flex;
-    align-items: center;
-    font-family: "Fira Code", monospace;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 30px;
-}
-
-header>nav>a::before {
-    /* pseudo-elemento com os :: */
-    content: '';
-    background-color: #4C5B84;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-.button_banner {
-    padding: 18px 20px 18px 20px;
-    background-color: #4C5B84;
-    box-shadow: 5px 5px 0px 0px #000;
-    font-family: Fira Code;
-    color: #fff;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    transition: transform 100ms linear
-}
-
-.button_banner:hover {
-    background-color: rgb(50, 69, 63);
-    /* transform é uma animação que faz o elementro crescer 
-    Outras propriedades mostradas:
-    opacity: 0.5;*/
-    transform: scale(1.08);
-}
+      -  tamanho do conteudo (QUANDO NÃO SELECIONADO O WIDTH E HEIGHT*/ 

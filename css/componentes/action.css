@@ -1,0 +1,19 @@
+.action {
+    /*Usando já o display inline-flex, e orietamos os objetos centralizados */
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
+    text-decoration: none;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+}
+.action::before{
+/* pseudo-elemento com os :: */
+content: '';
+background-color: #4C5B84;
+width: 10px;
+height: 10px;
+margin-right: 10px;
+}

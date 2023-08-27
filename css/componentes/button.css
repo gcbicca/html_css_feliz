@@ -2,7 +2,7 @@
     /* No CSS se eu definir a altura e largura, não vai dar pq a tag a é setada inline
     precisa modificar para inline-block o display */
     display: inline-block;
-    padding: 0px 20px 0px 20px;
+    padding: 18px 20px 18px 20px;
     margin-bottom: 10px;
     margin-right: 0;
     /* quando tems uma linha podemos alinhar usando a altura da linha igual da caixa */
@@ -14,6 +14,12 @@
     transition para duas propriedades
     transition: transform 100ms linear, opacity 200ms ease-in-out; */
     transition: transform 100ms linear;
+    font-family: "Fira Code", monospace;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
 }
 .button:hover {
     background-color: rgb(50, 69, 63);

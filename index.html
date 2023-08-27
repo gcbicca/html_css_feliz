@@ -12,32 +12,35 @@
         <link rel="stylesheet" href="css/componentes/title.css">
         <link rel="stylesheet" href="css/componentes/subtitle.css">
         <link rel="stylesheet" href="css/componentes/box.css">
+        <link rel="stylesheet" href="css/componentes/action.css">
+        <link rel="stylesheet" href="css/componentes/header.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
     <body>
-        <header>
+        <header class="header">
             <img src="assets/imgs/i_prisma.jpg" alt="my image">
             
             <nav> <!-- isso é um comentário, e nav é de navegation e a de ancor
                 ctrl + d para selecionar as tags e modificá-las ao mesmo tempo
                 crtl + f2 para selecionar todas as outras tags ao mesmo tempo
                 Precisa usar as DIVS para o SEO (Search engine optimization)-->
-                <a href="" lang="en">Skills</a>
-                <a href="">Projetos</a>
-                <a href="">Sobre</a>
-                <a href="">Contatos</a>
+                <a class="action" href="" lang="en">Skills</a>
+                <a class="action" href="">Projetos</a>
+                <a class="action" href="">Sobre</a>
+                <a class="action" href="">Contatos</a>
                 <a class="button" lang="en">Download CV</a>
                 <!-- Emmet é o gerador de código inteligente, pode-se usar nav>a*5
                 a[lang=en]{Skills} em ordem atributos e conteúdo representados por [] e {}-->
             </nav>
         </header>
             <div class="box">
-                <h1>Gabriel Bicca</h1>
-                <h2>FrontEnd Developer</h2>
+                <h1 class="title">Gabriel Bicca</h1>
+                <h2 class="subtile">FrontEnd Developer</h2>
                 
             </div>
             <a class="button" lang="en">Download CV</a>
-            <a class="button_banner">Contatos</a>
+            <a class="button">Contatos</a>
     </body>
 </html> 
