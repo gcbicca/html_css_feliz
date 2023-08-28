@@ -1,4 +1,4 @@
-.skills {
+.skills-section {
     background-color: #62C370;
     height: 730px;
     border-bottom: #7C5E99 10px solid;
@@ -10,13 +10,16 @@
 }
     
 
-.skills .wrapper2 {
+.skills-section .wrapper2 {
+    /* precisa ter um tamnho do box necessário pra ele modifica os elementos */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.column {
+
+/*.column {
     flex: 1;
     padding: 0px 210px;
 }
+*/
