@@ -15,13 +15,18 @@
         <link rel="stylesheet" href="css/componentes/action.css">
         <link rel="stylesheet" href="css/componentes/header.css">
         <link rel="stylesheet" href="css/componentes/banner.css">
+        <link rel="stylesheet" href="css/componentes/skills.css">
+        <link rel="stylesheet" href="css/componentes/subtitle2.css">
+        <link rel="stylesheet" href="css/componentes/subtitle3.css">
+        <link rel="stylesheet" href="css/componentes/bar.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
     <body>
         <header class="header">
-            <img src="assets/imgs/i_prisma.jpg" alt="my image">
+            <box class="imag">
+            </box>
             
             <nav> <!-- isso é um comentário, e nav é de navegation e a de ancor
                 ctrl + d para selecionar as tags e modificá-las ao mesmo tempo
@@ -46,6 +51,54 @@
                 <div class="navegation">
                     <a class="button" lang="en">Download CV</a>
                     <a class="button">Contatos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <!-- Poderiamos ter usado uma VARIAÇÃO DO COMPONENTE, fazendo a modificação no mesmo
+            arquivo, ex: class="subtitle -second" -second é uma outra classe, no CSS 
+        usa-se .subtitle.-second{} -->
+        <!-- Diferenciando COMPONENT de ELEMENT, REGRA: usa-se DUAS PALAVRAS,
+        ligadas por hifen ou underline para referencias um COMPONENT e uma palavra para elemento, que só
+    tem sentido naquela section.-->
+            <h2 class="subtitle2">Skills</h2>
+            <div class="wrapper2">
+                <div class="column">
+                    <div class="html">
+                        <h3 class="subtitle3">HTML</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="css">
+                        <h3 class="subtitle3">CSS</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="js">
+                        <h3 class="subtitle3">JavaScript</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="react">
+                        <h3 class="subtitle3">React</h3>
+                        <div class="bar"></div>
+                </div>
+                </div>
+                <div class="column">
+                    <div class="nodejs">
+                        <h3 class="subtitle3">NodeJS</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="tdd">
+                        <h3 class="subtitle3">TDD</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="rest-api">
+                        <h3 class="subtitle3">Rest Api</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="ux">
+                        <h3 class="subtitle3">UX</h3>
+                        <div class="bar"></div>
+                    </div>
                 </div>
             </div>
         </section>

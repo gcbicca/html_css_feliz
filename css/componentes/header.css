@@ -7,3 +7,12 @@
     padding-right: 20px;
     padding-top: 10px;
 }
+
+.header .imag {
+    width: 60px;
+    height: 60px;
+    background-image: url(../../assets/imgs/i_prisma.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160%;
+}

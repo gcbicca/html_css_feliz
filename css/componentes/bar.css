@@ -1,0 +1,6 @@
+.bar {
+    width: 365px;
+    height: 30px;
+    background: linear-gradient(to right, #7C5E99 50%, white 50%);
+    border: 5px black solid;
+}
