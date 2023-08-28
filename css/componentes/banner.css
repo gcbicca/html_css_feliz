@@ -1,0 +1,28 @@
+.banner {
+    background-image: url(../../assets/imgs/eu2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    border-bottom: 10px solid black;
+    background-position: right;
+
+
+    
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 91px;
+  }
+
+
+.banner .navegation {
+    /* A caixa tem o mesmo tamanho da caixa pai*/
+    display: flex;
+    gap: 112px;
+    margin-top: 38px;
+    margin-left: 80px;
+}  
+
+/* Box-sizing o padrao é content */
