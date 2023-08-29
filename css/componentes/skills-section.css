@@ -13,11 +13,14 @@
 .skills-section .wrapper2 {
     /* precisa ter um tamnho do box necessário pra ele modifica os elementos */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
+    
 }
 
-
+.column1 {
+    margin-right: 55px;
+}
 /*.column {
     flex: 1;
     padding: 0px 210px;
