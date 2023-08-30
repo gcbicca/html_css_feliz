@@ -1,4 +1,4 @@
-.action {
+.header-action {
     /*Usando já o display inline-flex, e orietamos os objetos centralizados */
     display: inline-flex;
     align-items: center;
@@ -9,7 +9,7 @@
     line-height: normal;
     margin-left: 30px;
 }
-.action::before{
+.header-action::before{
 /* pseudo-elemento com os :: */
 content: '';
 background-color: #4C5B84;

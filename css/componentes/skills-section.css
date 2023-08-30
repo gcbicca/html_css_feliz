@@ -18,11 +18,20 @@
     
 }
 
-.column1 {
+.skills-section .column1 {
     margin-right: 55px;
 }
-/*.column {
-    flex: 1;
-    padding: 0px 210px;
+
+
+.skills-section .skill {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 20px;
 }
-*/
+
+.skills-section .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}

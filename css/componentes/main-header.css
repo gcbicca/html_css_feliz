@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     justify-content: space-between;
     background-color: #62C370;
@@ -8,7 +8,7 @@
     padding-top: 10px;
 }
 
-.header .imag {
+.main-header .imag {
     width: 60px;
     height: 60px;
     background-image: url(../../assets/imgs/i_prisma.jpg);

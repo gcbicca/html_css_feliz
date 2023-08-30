@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     background-image: url(../../assets/imgs/eu2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -10,14 +10,14 @@
     
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     margin-left: 91px;
   }
 
 
-.banner .navegation {
+.main-banner .navegation {
     /* A caixa tem o mesmo tamanho da caixa pai*/
     display: flex;
     gap: 112px;

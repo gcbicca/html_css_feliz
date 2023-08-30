@@ -8,24 +8,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="css/componentes/button.css">
-        <link rel="stylesheet" href="css/componentes/title.css">
-        <link rel="stylesheet" href="css/componentes/subtitle.css">
-        <link rel="stylesheet" href="css/componentes/box.css">
-        <link rel="stylesheet" href="css/componentes/action.css">
-        <link rel="stylesheet" href="css/componentes/header.css">
-        <link rel="stylesheet" href="css/componentes/banner.css">
+        <link rel="stylesheet" href="css/componentes/main-button.css">
+        <link rel="stylesheet" href="css/componentes/main-title.css">
+        <link rel="stylesheet" href="css/componentes/main-subtitle.css">
+        <link rel="stylesheet" href="css/componentes/main-box.css">
+        <link rel="stylesheet" href="css/componentes/header-action.css">
+        <link rel="stylesheet" href="css/componentes/main-header.css">
+        <link rel="stylesheet" href="css/componentes/main-banner.css">
         <link rel="stylesheet" href="css/componentes/skills-section.css">
-        <link rel="stylesheet" href="css/componentes/subtitle2.css">
-        <link rel="stylesheet" href="css/componentes/subtitle3.css">
-        <link rel="stylesheet" href="css/componentes/bar.css">
-        <link rel="stylesheet" href="css/componentes/skill.css">
+        <link rel="stylesheet" href="css/componentes/main-bar.css">
+        <link rel="stylesheet" href="css/componentes/projects-section.css">
+        <link rel="stylesheet" href="css/componentes/box-projects.css">
+        <link rel="stylesheet" href="css/componentes/main-about.css">
+        <link rel="stylesheet" href="css/componentes/main-carousel.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
     <body>
-        <header class="header">
+        <header class="main-header">
             <box class="imag">
             </box>
             
@@ -33,25 +34,25 @@
                 ctrl + d para selecionar as tags e modificá-las ao mesmo tempo
                 crtl + f2 para selecionar todas as outras tags ao mesmo tempo
                 Precisa usar as DIVS para o SEO (Search engine optimization)-->
-                <a class="action" href="" lang="en">Skills</a>
-                <a class="action" href="">Projetos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button" lang="en">Download CV</a>
+                <a class="header-action" href="" lang="en">Skills</a>
+                <a class="header-action" href="">Projetos</a>
+                <a class="header-action" href="">Sobre</a>
+                <a class="header-action" href="">Contatos</a>
+                <a class="main-button" lang="en">Download CV</a>
                 <!-- Emmet é o gerador de código inteligente, pode-se usar nav>a*5
                 a[lang=en]{Skills} em ordem atributos e conteúdo representados por [] e {}-->
             </nav>
         </header>
 
-        <section class="banner">
+        <section class="main-banner">
             <div class="wrapper">
-                <div class="box">
-                    <h1 class="title">Gabriel Bicca</h1>
-                    <h2 class="subtile">FrontEnd Developer</h2>
+                <div class="main-box">
+                    <h1 class="main-title">Gabriel Bicca</h1>
+                    <h2 class="main-subtitle">FrontEnd Developer</h2>
                 </div>
                 <div class="navegation">
-                    <a class="button" lang="en">Download CV</a>
-                    <a class="button">Contatos</a>
+                    <a class="main-button" lang="en">Download CV</a>
+                    <a class="main-button">Contatos</a>
                 </div>
             </div>
         </section>
@@ -63,69 +64,132 @@
         <!-- Diferenciando COMPONENT de ELEMENT, REGRA: usa-se DUAS PALAVRAS,
         ligadas por hifen ou underline para referencias um COMPONENT e uma palavra para elemento, que só
     tem sentido naquela section.-->
-            <h2 class="subtitle2">Skills</h2>
+            <h2 class="main-subtitle -skills_section">Skills</h2>
             <div class="wrapper2">
                 <div class="column1">
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_html5.png" alt="">
+                        <img src="imgs/ico_html5.png" alt="Ícone do HTML">
                         <div class="right">
-                            <h3 class="subtitle3">HTML</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">HTML</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_css3.png" alt="">
+                        <img src="imgs/ico_css3.png" alt="Ícone do CSS">
                         <div class="right">
-                            <h3 class="subtitle3">CSS</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">CSS</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_js.png" alt="">
+                        <img src="imgs/ico_js.png" alt="Ícone do JavaScript">
                         <div class="right">
-                            <h3 class="subtitle3">JavaScript</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">JavaScript</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_react.png" alt="">
+                        <img src="imgs/ico_react.png" alt="Ícone do React">
                         <div class="right">
-                            <h3 class="subtitle3">React</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">React</h3>
+                            <div class="main-bar"></div>
                         </div>
                 </div>
                 </div>
                 <div class="column">
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_nodejs.png" alt="">
+                        <img src="imgs/ico_nodejs.png" alt="Ícone do NodeJS">
                         <div class="right">
-                            <h3 class="subtitle3">NodeJS</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">NodeJS</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_tdd.png" alt="">
+                        <img src="imgs/ico_tdd.png" alt="Ícone do TDD">
                         <div class="right">
-                            <h3 class="subtitle3">TDD</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">TDD</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_restapi.png" alt="">
+                        <img src="imgs/ico_restapi.png" alt="Ícone do RestAPI">
                         <div class="right">
-                            <h3 class="subtitle3">Rest Api</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">Rest Api</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <img class="img-skill" src="imgs/ico_ux.png" alt="">
+                        <img src="imgs/ico_ux.png" alt="Ícone do UX">
                         <div class="right">
-                            <h3 class="subtitle3">UX</h3>
-                            <div class="bar"></div>
+                            <h3 class="main-subtitle -skill_subtitle">UX</h3>
+                            <div class="main-bar"></div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="projects-section -hard_blue">
+            <h2 class="main-subtitle -project">Projetos</h2>
+
+            <div class="container">
+                <div class="box-projects">
+                    <!--Aqui poderiamos ter usado uma tag chamada FIGURE, que envolve imagens e é SEMANTICA-->
+                    <a href="" target="_blank"><img src="imgs/logo-firedlabs.png" alt="Logo Firelabs" ></a>
+                </div>
+                <div class="box-projects -blue">
+                    <a href="" target="_blank"><img src="imgs/logo-collabcode.png" alt="Logo Collabcode"></a>
+                </div>
+                <div class="box-projects -self">
+                    <a href=""><img src="assets/imgs/i_prisma.jpg" alt=""></a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main-about">
+            <h2 class="main-subtitle -project">Sobre</h2>
+
+            <div class="main-carousel">
+
+                <div class="box -noborder">
+        
+                </div>
+                <div class="box">
+                    <h3 class="2012">2012</h3>
+                    <img src="" alt="">
+                </div>
+
+                <div class="box">
+                    <h3 class="2014">2014</h3>
+                    <img src="" alt="">
+                </div>
+
+                <div class="box">
+                    <h3 class="2012">2016</h3>
+                    <img src="" alt="">
+                </div>
+
+                <div class="box">
+                    <h3 class="2012">2017</h3>
+                    <img src="" alt="">
+                </div>
+
+                <div class="box">
+                    <h3 class="2012">2018</h3>
+                    <img src="" alt="">
+                </div>
+
+                <div class="box">
+                    <h3 class="2012">2019</h3>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <p class="paragraph">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. 
+                Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. 
+                Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e 
+                eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando 
+                Airsoft ou trocando ideias com amigos.</p>
         </section>
     </body>
 </html> 

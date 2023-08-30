@@ -1,0 +1,16 @@
+.main-about {
+    height: 783px;
+    background-color: #7C5E99;
+    border-bottom: black 10px solid;
+}
+
+.main-about .paragraph {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: normal;
+    font-style: normal;
+    text-align: justify;
+
+    padding: 50px 80px 50px 80px;
+}

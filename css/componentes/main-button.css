@@ -1,4 +1,4 @@
-.button {
+.main-button {
     /* No CSS se eu definir a altura e largura, não vai dar pq a tag a é setada inline
     precisa modificar para inline-block o display */
     display: inline-block;
@@ -21,7 +21,7 @@
     font-weight: 500;
     line-height: normal;
 }
-.button:hover {
+.main-button:hover {
     background-color: rgb(50, 69, 63);
     /* transform é uma animação que faz o elementro crescer 
     Outras propriedades mostradas:

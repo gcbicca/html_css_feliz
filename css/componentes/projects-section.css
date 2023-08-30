@@ -1,0 +1,16 @@
+.projects-section {
+    height: 520px;
+    background-color: #000;
+    border-bottom: 10px solid #F25A70;
+    
+}
+
+.projects-section.-hard_blue {
+    background-color: #161925;
+    border-bottom: 10px solid white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,15 @@
+
+.main-carousel {
+    display: flex;
+}
+
+.main-carousel .box {
+    width: calc(17.28%);
+    
+    border-top: black 5px solid;
+    border-left: black 5px dashed;
+}
+
+.main-carousel .box.-noborder {
+    border-left: none;
+}
