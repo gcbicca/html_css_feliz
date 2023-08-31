@@ -1,15 +1,44 @@
 
 .main-carousel {
     display: flex;
+    justify-content: center;
 }
 
 .main-carousel .box {
     width: calc(17.28%);
+    display: flex;
+    flex-direction: column;
     
-    border-top: black 5px solid;
-    border-left: black 5px dashed;
+    align-items: center;
+    position: relative;
 }
 
-.main-carousel .box.-noborder {
+.main-carousel .box::before {
+    content: "";
+    position: absolute;
+    left: 50%; /* Position at 50% from the left */
+    top: 45px;
+    transform: translateX(-50%); /* Adjust to center the border */
+    width: 4px;
+    height: 9%; /* Full height of the box */
+    border-left: 4px dotted black;
+}
+
+/*.main-carousel .box.-noborder {
     border-left: none;
 }
+*/
+
+.wrap_img{
+    height: 140px;
+    background-color: white;
+    border: 5px solid black;
+}
+.year {
+    border-bottom: 5px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+
+
