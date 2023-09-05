@@ -40,30 +40,32 @@
                 ctrl + d para selecionar as tags e modificá-las ao mesmo tempo
                 crtl + f2 para selecionar todas as outras tags ao mesmo tempo
                 Precisa usar as DIVS para o SEO (Search engine optimization)-->
-                <a class="header-action" href="" lang="en">Skills</a>
-                <a class="header-action" href="">Projetos</a>
-                <a class="header-action" href="">Sobre</a>
-                <a class="header-action" href="">Contatos</a>
-                <a class="main-button" lang="en">Download CV</a>
+                <a class="header-action" href="#skills" lang="en">Skills</a>
+                <a class="header-action" href="#projetos">Projetos</a>
+                <a class="header-action" href="#sobre">Sobre</a>
+                <a class="header-action" href="#contacts">Contatos</a>
+                <a class="main-button" lang="en" 
+                href="https://drive.google.com/file/d/1UzFxfkJ97w0pxtKUn-3HdKmGZI_bO-mQ/view?usp=sharing" target="_blank">Download CV</a>
                 <!-- Emmet é o gerador de código inteligente, pode-se usar nav>a*5
                 a[lang=en]{Skills} em ordem atributos e conteúdo representados por [] e {}-->
             </nav>
         </header>
 
         <section class="main-banner">
+            <div class="divisor"></div>
             <div class="wrapper">
                 <div class="main-box">
                     <h1 class="main-title">Gabriel Bicca</h1>
                     <h2 class="main-subtitle">FrontEnd Developer</h2>
                 </div>
                 <div class="navegation">
-                    <a class="main-button" lang="en">Download CV</a>
-                    <a class="main-button">Contatos</a>
+                    <a class="main-button" lang="en" href="https://drive.google.com/file/d/1UzFxfkJ97w0pxtKUn-3HdKmGZI_bO-mQ/view?usp=sharing" target="_blank">Download CV</a>
+                    <a class="main-button" href="#contacts">Contatos</a>
                 </div>
             </div>
         </section>
 
-        <section class="skills-section">
+        <section id="skills" class="skills-section">
             <!-- Poderiamos ter usado uma VARIAÇÃO DO COMPONENTE, fazendo a modificação no mesmo
             arquivo, ex: class="subtitle -second" -second é uma outra classe, no CSS 
         usa-se .subtitle.-second{} -->
@@ -77,28 +79,28 @@
                         <img src="imgs/ico_html5.png" alt="Ícone do HTML">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">HTML</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -HTML"></div>
                         </div>
                     </div>
                     <div class="skill">
                         <img src="imgs/ico_css3.png" alt="Ícone do CSS">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">CSS</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -CSS"></div>
                         </div>
                     </div>
                     <div class="skill">
                         <img src="imgs/ico_js.png" alt="Ícone do JavaScript">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">JavaScript</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -JS"></div>
                         </div>
                     </div>
                     <div class="skill">
                         <img src="imgs/ico_react.png" alt="Ícone do React">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">React</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -react "></div>
                         </div>
                 </div>
                 </div>
@@ -107,54 +109,54 @@
                         <img src="imgs/ico_nodejs.png" alt="Ícone do NodeJS">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">NodeJS</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -NodeJS"></div>
                         </div>
                     </div>
                     <div class="skill">
                         <img src="imgs/ico_tdd.png" alt="Ícone do TDD">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">TDD</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -TDD"></div>
                         </div>
                     </div>
                     <div class="skill">
                         <img src="imgs/ico_restapi.png" alt="Ícone do RestAPI">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">Rest Api</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -RestApi"></div>
                         </div>
                     </div>
                     <div class="skill">
                         <img src="imgs/ico_ux.png" alt="Ícone do UX">
                         <div class="right">
                             <h3 class="main-subtitle -skill_subtitle">UX</h3>
-                            <div class="main-bar"></div>
+                            <div class="main-bar -UX"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects-section -hard_blue">
+        <section id="projetos" class="projects-section -hard_blue">
             <h2 class="main-subtitle -project">Projetos</h2>
 
             <div class="container">
                 <div class="box-projects">
                     <!--Aqui poderiamos ter usado uma tag chamada FIGURE, que envolve imagens e é SEMANTICA-->
-                    <a href="" target="_blank"><img src="imgs/logo-firedlabs.png" alt="Logo Firelabs" ></a>
+                    <a href="https://gcbicca.github.io/projeto_site_tela_login/" target="_blank"><img class="imgtela -tela" src="imgs/logom.png" alt="Logo projeto tela de login" ></a>
                 </div>
                 <div class="box-projects -blue">
-                    <a href="" target="_blank"><img src="imgs/logo-collabcode.png" alt="Logo Collabcode"></a>
+                    <a href="https://gcbicca.github.io/babi_leti/" target="_blank"><img class="imgtela" src="imgs/logo300.png" alt="Logo Collabcode"></a>
                 </div>
                 <div class="box-projects -self">
-                    <a href=""><img src="assets/imgs/i_prisma.jpg" alt=""></a>
+                    <a href="https://gcbicca.github.io/html_css_feliz/"><img class="imgtela" src="assets/imgs/i_prisma.jpg" alt="Foto minha"></a>
                 </div>
 
             </div>
         </section>
          <!-- SHIFT+ALT+A CRIA UM COMENTARIO
         CRTL+ ; ENCAPSULA COM COMENTARIO-->
-        <section class="main-about">
+        <section id="sobre" class="main-about">
             <h2 class="main-subtitle -project">Sobre</h2>
             <span class="line"></span>
             <div class="main-carousel">
@@ -199,14 +201,14 @@
                 <button class="button-arrow -right"></button>
             </div>
             
-            <p class="paragraph">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. 
-                Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. 
-                Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e 
-                eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando 
-                Airsoft ou trocando ideias com amigos.</p>
+            <p class="paragraph">Sou um estudante de Biomedicina, atualmente no 7º semestre da Universidade do Vale do Rio dos Sinos - Unisinos. 
+                Além de minha paixão pela biomedicina, sou um entusiasta de programação. 
+                Tenho conhecimento em linguagens como Python, HTML, CSS e Bash. 
+                Tive a oportunidade de aplicar minha habilidade em programação durante um estágio em bioinformática, onde realizei análises de dados 
+                de RNA-seq relacionados ao câncer de pele. Através da minha paixão pela tecnologia quero colaborar com diversos projetos que ajudem as pessoas.</p>
         </section>
 
-        <section class="main-contact">
+        <section id="contacts" class="main-contact">
             <h2 class="main-subtitle -project">Contatos</h2>
             <dev class="main-form">
                 <form class="form" method="post" autocomplete="on">
@@ -227,8 +229,8 @@
 
         <footer class="main-footer">
             <a href="" target="_blank"><img src="imgs/icon-twitter.png" alt="icone do Twitter"></a>
-            <a href="" target="_blank"><img src="imgs/icon-youtube.png" alt="icone do Youtube"></a>
-            <a href="" target="_blank"><img src="imgs/icon-discord.png" alt="icone do discord"></a>
+            <a href="https://www.youtube.com/channel/UCTYngTMN7jXgwwjMORJcGww" target="_blank"><img src="imgs/icon-youtube.png" alt="icone do Youtube"></a>
+            <a href="https://discord.gg/4h8Ms8YM" target="_blank"><img src="imgs/icon-discord.png" alt="icone do discord"></a>
 
         </footer>
 

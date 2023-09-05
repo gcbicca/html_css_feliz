@@ -21,6 +21,7 @@
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    z-index: 1;
 }
 .main-button:hover {
     background-color: rgb(50, 69, 63);

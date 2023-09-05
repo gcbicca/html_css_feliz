@@ -2,6 +2,34 @@
     box-sizing: border-box;
     width: 365px;
     height: 40px;
-    background: linear-gradient(to right, #7C5E99 50%, white 50%);
+    background: linear-gradient(to right, #7C5E99 50%, white 0%);
     border: 5px black solid;
+}
+
+.main-bar.-HTML {
+    background: linear-gradient(to right, #7C5E99 50%, white 0%);
+}
+
+.main-bar.-JS {
+    background: linear-gradient(to right, #7C5E99 10%, white 0%);
+}
+
+.main-bar.-react {
+    background: linear-gradient(to right, #7C5E99 0%, white 0%);
+}
+
+.main-bar.-UX {
+    background: linear-gradient(to right, #7C5E99 10%, white 0%);
+}
+
+.main-bar.-NodeJS {
+    background: linear-gradient(to right, #7C5E99 0%, white 0%);
+}
+
+.main-bar.-TDD {
+    background: linear-gradient(to right, #7C5E99 0%, white 0%);
+}
+
+.main-bar.-RestApi {
+    background: linear-gradient(to right, #7C5E99 0%, white 0%);
 }

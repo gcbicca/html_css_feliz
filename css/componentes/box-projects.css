@@ -14,8 +14,13 @@
 }
 
 
-.box-projects img {
+
+.imgtela {
     width: 280px;
     height: 280px;
 }
 
+.imgtela.-tela{
+    width: 620px;
+    height: 380px;
+}
