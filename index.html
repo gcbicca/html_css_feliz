@@ -21,6 +21,12 @@
         <link rel="stylesheet" href="css/componentes/box-projects.css">
         <link rel="stylesheet" href="css/componentes/main-about.css">
         <link rel="stylesheet" href="css/componentes/main-carousel.css">
+        <link rel="stylesheet" href="css/componentes/box-carousel.css">
+        <link rel="stylesheet" href="css/componentes/button-arrow.css">
+        <link rel="stylesheet" href="css/componentes/main-footer.css">
+        <link rel="stylesheet" href="css/componentes/main-contact.css">
+        <link rel="stylesheet" href="css/componentes/box-contact.css">
+        <link rel="stylesheet" href="css/componentes/main-form.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         
@@ -150,48 +156,82 @@
         CRTL+ ; ENCAPSULA COM COMENTARIO-->
         <section class="main-about">
             <h2 class="main-subtitle -project">Sobre</h2>
-
+            <span class="line"></span>
             <div class="main-carousel">
-                <div class="box">
-                    <h3 class="year">2012</h3>
-
-                    <div class="wrap_img">
-                        <img src="imgs/logo-caelum.png" alt="">
+                <button class="button-arrow -left"></button>
+                
+                <div class="element">
+                    <div class="box-carousel">
+                        <h3 class="main-subtitle -year">2012</h3>
+                        <div class="wrap_img">
+                            <img src="imgs/logo-caelum.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-carousel">
+                        <h3 class="main-subtitle -year">2014</h3>
+                        <div class="wrap_img"><img src="imgs/logo-caelum.png" alt=""></div>
+                    </div>
+                    <div class="box-carousel">
+                        <h3 class="main-subtitle -year">2016</h3>
+                        <div class="wrap_img -greenbg">
+                            <img class="img_carousel" src="imgs/logo-collabcode300.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-carousel">
+                        <h3 class="main-subtitle -year">2017</h3>
+                        <div class="wrap_img -greenbg">
+                            <img class="img_carousel" src="imgs/logo-getninjas.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-carousel">
+                        <h3 class="main-subtitle -year">2018</h3>
+                        <div class="wrap_img -yellowbg">
+                            <img class="img_carousel" src="imgs/logo-impulso.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-carousel -right">
+                        <h3 class="main-subtitle -year -right">2019</h3>
+                        <div class="wrap_img -yellowbg -right">
+                            <img class="img_carousel" src="imgs/logo-locaweb.png" alt="">
+                        </div>
                     </div>
                 </div>
-
-                <div class="box">
-                    <h3 class="year">2014</h3>
-                    <div class="wrap_img"><img src="imgs/logo-caelum.png" alt=""></div>
-                </div>
-
-                <div class="box">
-                    <h3 class="year">2016</h3>
-                    <div class="wrap_img"><img src="imgs/logo-collabcode300.png" alt=""></div>
-                </div>
-
-                <div class="box">
-                    <h3 class="year">2017</h3>
-                    <div class="wrap_img"><img src="imgs/logo-getninjas.png" alt=""></div>
-                </div>
-
-                <div class="box">
-                    <h3 class="year">2018</h3>
-                    <div class="wrap_img">
-                        <img src="imgs/logo-impulso.png" alt="">
-                    </div>
-                </div>
-
-                <div class="box">
-                    <h3 class="year">2019</h3>
-                    <div class="wrap_img"><img src="imgs/logo-locaweb.png" alt=""></div>
-                </div>
+                <button class="button-arrow -right"></button>
             </div>
+            
             <p class="paragraph">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. 
                 Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. 
                 Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e 
                 eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando 
                 Airsoft ou trocando ideias com amigos.</p>
         </section>
+
+        <section class="main-contact">
+            <h2 class="main-subtitle -project">Contatos</h2>
+            <dev class="main-form">
+                <form class="form" method="post" autocomplete="on">
+                    <label class="main-subtitle -form" for="inome">Nome</label>
+                    <input class="box-contact" type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+
+                    <label class="main-subtitle -form" for="iemail">E-mail</label>
+                    <input class="box-contact" type="email" name="email" id="iemail" placeholder="adress@email.com" required autocomplete="email">
+
+                    <label class="main-subtitle -form" for="imsg">Menssagem</label>
+                    <textarea class="box-contact -text" name="msg" id="imsg" cols="50" rows="10"></textarea>
+                    
+                    <input class="main-button -form" type="submit" value="Enviar">
+                </form>
+            </dev>
+
+        </section>
+
+        <footer class="main-footer">
+            <a href="" target="_blank"><img src="imgs/icon-twitter.png" alt="icone do Twitter"></a>
+            <a href="" target="_blank"><img src="imgs/icon-youtube.png" alt="icone do Youtube"></a>
+            <a href="" target="_blank"><img src="imgs/icon-discord.png" alt="icone do discord"></a>
+
+        </footer>
+
+        <script src="js/components/main-carousel.js"></script>
     </body>
 </html> 

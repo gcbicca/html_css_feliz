@@ -1,0 +1,49 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #62C370;
+    box-shadow: 5px 5px 0px black;
+    border: 0px;
+
+    transition: 100ms;
+}
+
+.button-arrow.-left {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 10px;
+    z-index: 2;
+}
+.button-arrow.-right {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    bottom: 50px;
+}
+
+.button-arrow::before {
+    content: " ";
+    display: flex;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border: 20px solid transparent;
+    border-left: 30px solid white;
+
+    margin-left: 9px;
+}
+
+
+
+.button-arrow.-left::before {
+    
+    border: 20px solid transparent;
+    border-right: 30px solid white;
+    margin-left: -15px;
+    /* transform: rotate(180deg) translateX(12px) */
+}
+
+.button-arrow:hover {
+    background-color: #345738;
+    transform: scale(1.09);
+}

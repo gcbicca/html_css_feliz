@@ -28,3 +28,23 @@
     margin-bottom: 0px;
     text-shadow: none;
 }
+
+.main-subtitle.-year {
+    font-size: 25px;
+    text-shadow: none;
+    color: #62C370;
+    
+}
+
+.main-subtitle.-form {
+    font-family: "Fira Code";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-shadow: none;
+
+   
+
+
+}

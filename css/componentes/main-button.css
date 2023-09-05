@@ -20,6 +20,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
 }
 .main-button:hover {
     background-color: rgb(50, 69, 63);
@@ -27,4 +28,15 @@
     Outras propriedades mostradas:
     opacity: 0.5;*/
     transform: scale(1.08);
+}
+
+.main-button.-form {
+    border: none;
+    height: 60px;
+    background-color: #62C370;
+    width: 80%;
+}
+
+.main-button.-form:hover {
+    transform: scale(1.02);
 }

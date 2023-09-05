@@ -2,6 +2,7 @@
     height: 783px;
     background-color: #7C5E99;
     border-bottom: black 10px solid;
+    overflow: hidden;
 }
 
 .main-about .paragraph {
@@ -14,3 +15,13 @@
 
     padding: 50px 80px 50px 80px;
 }
+
+
+.line {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 5px solid black;
+    margin-top: 52px;
+    
+} 
